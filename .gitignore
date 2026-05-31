@@ -1,0 +1,61 @@
+# Dependencies
+/vendor/
+/scripts/
+
+# Composer
+composer.phar
+
+
+# Demo recordings (outside scripts/)
+*.webm
+*.mp4
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & cache
+*.log
+/logs/
+/cache/
+/tmp/
+/temp/
+
+# PHP
+.phpunit.result.cache
+php_errors.log
+
+# Test / debug scripts
+/mail/test_smtp.php
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Archives & backups
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.sql.bak
